@@ -13,7 +13,7 @@ import pageObjects.LoginPage;
 import pageObjects.ProjectsPage;
 
 @Epic("Login")
-@Feature("log in with different credantiald valid and not valid")
+@Feature("Log in with different credantiald valid and not valid")
 public class LoginTest extends BaseTest {
 
 	@Severity(SeverityLevel.CRITICAL)

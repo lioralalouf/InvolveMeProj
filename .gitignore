@@ -37,6 +37,7 @@ target/
 *.rar
 
 # Test
+ScreenShots/*
 test-output/*
 allure-results/*
 allure-report/*
