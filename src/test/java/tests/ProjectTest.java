@@ -17,7 +17,7 @@ import pageObjects.TemplatesPage;
 public class ProjectTest extends BaseTest {
 	@Severity(SeverityLevel.CRITICAL)
 	@Story("As A user, .")
-	@Test(description = "adding a new project to workSpace")
+	@Test(description = "adding a new project to workSpace.")
 	@Description("log out")
 	public void tc01_addNewProject() {
 		ProjectsPage pp = new ProjectsPage(driver);
