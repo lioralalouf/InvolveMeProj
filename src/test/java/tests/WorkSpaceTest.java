@@ -12,7 +12,7 @@ import pageObjects.TemplatesPage;
 
 public class WorkSpaceTest extends BaseTest {
 
-	@Test(description = "Adding A new workspace, check it has been added.")
+	@Test(description = "Adding A new workspace, check it has been added")
 	public void tc01_addWorkSpace() {
 		ProjectsPage pp = new ProjectsPage(driver);
 		pp.addNewWorkSpace("my new workspace");
