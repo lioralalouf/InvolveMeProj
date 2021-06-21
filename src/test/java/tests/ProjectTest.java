@@ -74,7 +74,7 @@ public class ProjectTest extends BaseTest {
 		pt.chooseProjectType("Quiz");
 	    TemplatesPage tp = new TemplatesPage(driver);
 		tp.chooseFilterAll();
-		int expected = 174;
+		int expected = 189;
 		int actual = tp.numberOfTemplates();
 		Assert.assertEquals(actual, expected);
 		tp.chooseFilterSurvey();

@@ -28,6 +28,10 @@ public class BasePage {
 		el.sendKeys(text);
 
 	}
+	protected void scrollMouse(WebElement el) {
+		//to perform Scroll on application using Selenium
+		js.executeScript("arguments[0].scrollIntoView();", el);
+	}
 
 	protected void moveTo(WebElement el) {
 		actions.moveToElement(el).build().perform();
