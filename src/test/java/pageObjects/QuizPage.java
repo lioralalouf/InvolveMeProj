@@ -127,6 +127,7 @@ public class QuizPage extends BasePage {
 		fillText(userEmail, email);
 		sleep(1500);
 		click(agreeCheckbox);
+		scrollMouse(viewResultsBtn);
 		click(viewResultsBtn);
 		sleep(1500);
 	}
